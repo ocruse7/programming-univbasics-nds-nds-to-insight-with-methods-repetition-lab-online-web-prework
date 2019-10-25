@@ -29,7 +29,10 @@ def list_of_directors(source)
   directors = []
   
   source.length.times do |i|
-    
+    directors << source[i][:name]
+  end
+  
+  directors
   
 end
 
