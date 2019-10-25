@@ -47,7 +47,7 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  directors_totals(source).sum
+  directors_totals(source).values.sum
   
 end
 
